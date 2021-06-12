@@ -1,0 +1,59 @@
+theme: hugo-assembly
+baseURL: https://example.co
+languageCode: en-US
+title: Assembly
+params:
+  actions:
+    enable: yes
+    register: CTA Now!
+  author: A Human Name
+  banner:
+    byline: A free, CSS template ported over to a Hugo Theme.
+    title: This is Assembly Template
+  contact:
+    enable: yes
+  description: The description
+  footer:
+    copy: 2018 &copy; Assembly Inc. | All rights reserved
+    enable: yes
+    facebook: ''
+    instagram: ''
+    twitter: ''
+  nav:
+    contact: Contact Us
+    home: Home
+    services: Services
+    welcome: Welcome
+  services:
+    enable: yes
+    item:
+      - button_item_info: Safer
+        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem
+          ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit
+          amet, consectetur adipisicing elit.
+        weight: A
+      - button_item_info: Faster
+        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem
+          ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit
+          amet, consectetur adipisicing elit.
+        weight: B
+      - button_item_info: Smarter
+        description: Possimus id dicta consequuntur veritatis, reiciendis at sint
+          distinctio eligend Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem
+          ipsum dolor sit amet, consectetur adipisicing elit.
+        weight: C
+    subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    title: Services
+  welcome:
+    button_text: Call Now
+    description: This is <strong>Assembly</strong>, a free, fully standards-compliant
+      CSS template designed by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.
+      The photos in this template are from <a href="http://fotogrph.com/"> Fotogrph</a>.
+      This free template is released under the <a href="http://templated.co/license">Creative
+      Commons Attribution</a> license, so you're pretty much free to do whatever you
+      want with it (even use it commercially) provided you give us credit for it.
+      Have fun :)
+    enable: yes
+    subtitle: Computing the conversion of instructions in low-level code to machine
+      code by an assembler.
+    title: Welcome Assembly
