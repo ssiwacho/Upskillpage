@@ -1,196 +1,215 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: Navigator | Responsive Multipurpose Bootstrap Hugo Template
-theme: navigator-hugo
-summaryLength: 10
-enableRobotsTXT: yes
+baseURL: http://examplesite.org
+title: Airspace | Creative Agency Hugo Template
+theme: airspace-hugo
+paginate: '4'
+summaryLength: '30'
+disableLanguages: []
+disqusShortname: ''
 googleAnalytics: ''
-enableGitInfo: no
-pygmentsCodeFences: yes
-defaultContentLanguageInSubdir: yes
-DefaultContentLanguage: en
+outputs:
+  home: HTML
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
+  tableOfContents:
+    endLevel: 6
+    ordered: no
+    startLevel: 2
 params:
+  author: Themefisher
+  contact:
+    address_descriptors: no
+    email: demo@email.com
+    form:
+      action: '#'
+      enable: yes
+      success_image: images/paper-plane.svg
+      use_netlify: yes
+    location: "**Themefisher**  \nNorth Main Street  \nBrooklyn, New South Wales  \nAustralia\n"
+    phone: 0124857985320
   cookies:
     enable: yes
     expire_days: 2
+  counter:
+    enable: yes
+    username: ''
+  description: This is meta description
+  gmap:
+    enable: yes
+    gmap_api: AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU
+    map_latitude: '51.5223477'
+    map_longitude: '-0.1622023'
+    map_marker: images/marker.png
+  image: images/logo.png
   logo: images/logo.png
-Params:
-  listeLangues:
-    - code: fr
-    - author: Themefisher
-      code: en
-      description: This is meta description
-Languages:
+  logo_width: 150px
+  plugins:
+    css:
+      - attributes: media='screen'
+        link: plugins/bootstrap/css/bootstrap.min.css
+      - attributes: ''
+        link: plugins/ionicons/css/ionicons.min.css
+      - attributes: ''
+        link: plugins/magnific-popup/magnific-popup.min.css
+      - attributes: ''
+        link: plugins/slick/slick.css
+    js:
+      - attributes: ''
+        link: plugins/jquery/jquery.min.js
+      - attributes: ''
+        link: plugins/bootstrap/js/bootstrap.min.js
+      - attributes: ''
+        link: plugins/slick/slick.min.js
+      - attributes: ''
+        link: plugins/magnific-popup/magnific-popup.min.js
+      - attributes: ''
+        link: plugins/shuffle/shuffle.min.js
+      - attributes: defer
+        link: plugins/google-map/gmap.js
+  preloader:
+    enable: yes
+    preloader: ''
+  social:
+    - icon: ion-social-googleplus-outline
+      link: '#'
+    - icon: ion-social-linkedin-outline
+      link: '#'
+    - icon: ion-social-pinterest-outline
+      link: '#'
+    - icon: ion-social-dribbble-outline
+      link: '#'
+    - icon: ion-social-twitter-outline
+      link: '#'
+    - icon: ion-social-facebook-outline
+      link: '#'
+  widgets:
+    sidebar:
+      - recent_posts
+      - taxonomy_category
+      - taxonomy_tags
+languages:
+  de:
+    contentDir: content/german
+    copyright: Copyright &copy; 2021 [Themefisher](https://themefisher.com). Alle
+      Rechte vorbehalten.
+    languageCode: de-DE
+    languageName: Deutsch
+    menu:
+      footer:
+        - URL: about
+          name: Über uns
+          weight: 1
+        - URL: project
+          name: Projekt
+          weight: 2
+        - URL: service
+          name: Dienstleistung
+          weight: 3
+        - URL: pricing
+          name: Preise
+          weight: 4
+        - URL: faq
+          name: Häufige Fragen
+          weight: 5
+        - URL: contact
+          name: Kontakt
+          weight: 6
+      main:
+        - hasChildren: yes
+          name: Mehr
+          weight: 5
+    weight: 3
   en:
-    dateFormat: January 2, 2006
-    footerAboutTitle: About
-    footerDescription: Integer posuere erat a ante venenati dapibus posuere velit
-      aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere.
-    footerQuicklinkTitle: Quicklinks
-    footerServiceTitle: Service
-    footerSubscribeTitle: Subscribe
-    home: EN Home
-    languageCode: en-us
-    logo: images/logo.png
-    menufixed: no
-    params:
-      aboutSm:
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
-          deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque
-          enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam
-          maiores iste soluta, nihil dolorem?
-        enable: yes
-        title: We have explored the digital landscape with passion for a long time
-      blog:
-        enable: yes
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
-          reiciendis quasi itaque, obcaecati atque sit!
-        title: Blog.
-        topTitle: OUR UNTOLD STORY
-      contact:
-        address: 14/05, Stockhome <br> Victori Palace , United States
-        dribbble: https://dribbble.com/
-        enable: yes
-        facebook: https://www.facebook.com/
-        fax: +61 3827 3590
-        instagram: https://www.instagram.com/
-        linkedin: https://www.linkedin.com/
-        mapLatitude: '51.507351'
-        mapLongitude: '-0.127758'
-        mapMarker: images/marker.png
-        phone: (03) 9283 2617
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
-          reiciendis quasi itaque, obcaecati atque sit!
-        title: Contact Us.
-        topTitle: DROP US A NOTE
-        twitter: https://twitter.com/
-      cta:
-        bg: images/call-to-action/call-to-action-bg-2.jpg
-        btnText: Contact Us
-        enable: yes
-        subtitle: Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum
-          auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed
-          odio sitain elit.
-        title: Let's Create Something Together
-      hero:
-        btnText: Know More
-        btnURL: https://themefisher.com/
-        button: yes
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
-          quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam
-          unde repellat id expedita quae quisquam libero officia consequatur.
-        enable: yes
-        heading: We love to make brands grow
-        videoThumb: images/slider/video-player-thumb.jpg
-        videoURL: https://www.youtube.com/embed/g3-VxLQO7do
-    title: Example site multi-language
-    weight: 2
-  fr:
-    dateFormat: 2 January 2006
-    footerAboutTitle: FRANCAIS About
-    footerDescription: FRANCAIS Integer posuere erat a ante venenati dapibus posuere
-      velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere.
-    footerQuicklinkTitle: FRANCAIS Quick links
-    footerServiceTitle: FRANCAIS Services
-    footerSubscribeTitle: FRANCAIS Subscribe
-    home: FR Home
-    languageCode: fr-fr
-    logo: images/logo.png
-    menufixed: no
-    params:
-      aboutSm:
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
-          deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque
-          enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam
-          maiores iste soluta, nihil dolorem?
-        enable: yes
-        title: FRANCAIS We have explored the digital landscape with passion for a
-          long time
-      blog:
-        enable: yes
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
-          reiciendis quasi itaque, obcaecati atque sit!
-        title: FRANCAIS Blog.
-        topTitle: OUR UNTOLD STORY
-      contact:
-        address: 14/05, Stockhome <br> Victori Palace , United States
-        dribbble: https://dribbble.com/
-        enable: yes
-        facebook: https://www.facebook.com/
-        fax: +61 3827 3590
-        instagram: https://www.instagram.com/
-        linkedin: https://www.linkedin.com/
-        mapLatitude: '51.507351'
-        mapLongitude: '-0.127758'
-        mapMarker: images/marker.png
-        phone: (03) 9283 2617
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
-          reiciendis quasi itaque, obcaecati atque sit!
-        title: FRANCAIS Contact Us.
-        topTitle: DROP US A NOTE
-        twitter: https://twitter.com/
-      cta:
-        bg: images/call-to-action/call-to-action-bg-2.jpg
-        btnText: Nous contacter
-        enable: yes
-        subtitle: Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum
-          auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed
-          odio sitain elit.
-        title: FRANCAIS Let's Create Something Together
-      hero:
-        btnText: Know More
-        btnURL: https://themefisher.com/
-        button: yes
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
-          quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam
-          unde repellat id expedita quae quisquam libero officia consequatur.
-        enable: yes
-        heading: FRANCAIS We love to make brands grow
-        videoThumb: images/slider/video-player-thumb.jpg
-        videoURL: https://www.youtube.com/embed/g3-VxLQO7do
-    title: FRANCAIS Example site multi-language
+    contentDir: content/english
+    copyright: Copyright &copy; 2021 [Themefisher](https://themefisher.com). All Rights
+      Reserved.
+    languageCode: en-US
+    languageName: English
+    menu:
+      footer:
+        - URL: about
+          name: About
+          weight: 1
+        - URL: project
+          name: Project
+          weight: 2
+        - URL: service
+          name: Service
+          weight: 3
+        - URL: pricing
+          name: Pricing
+          weight: 4
+        - URL: faq
+          name: FAQ
+          weight: 5
+        - URL: contact
+          name: Contact
+          weight: 6
+      main:
+        - hasChildren: yes
+          name: More
+          weight: 5
     weight: 1
-menu:
-  nav:
-    - name: about
-      url: about
-      weight: 2
-    - name: service
-      url: service
-      weight: 3
-    - name: portfolio
-      url: portfolio
-      weight: 4
-    - name: blog
-      url: blog
-      weight: 5
-    - name: contact
-      url: contact
-      weight: 6
-  quicklink:
-    - name: partners
-      url: about
-      weight: 1
-    - name: about
-      url: about
-      weight: 2
-    - name: faqs
-      url: about
-      weight: 3
-    - name: badges
-      url: about
-      weight: 4
-  service:
-    - name: graphicdesign
-      url: service
-      weight: 1
-    - name: webdesign
-      url: service
-      weight: 2
-    - name: webdevelopment
-      url: service
-      weight: 3
+  fr:
+    contentDir: content/french
+    copyright: Copyright &copy; 2021 [Themefisher](https://themefisher.com). Tous
+      droits réservés.
+    languageCode: fr-FR
+    languageName: Français
+    menu:
+      footer:
+        - URL: about
+          name: À propos
+          weight: 1
+        - URL: project
+          name: Projet
+          weight: 2
+        - URL: service
+          name: Service
+          weight: 3
+        - URL: pricing
+          name: Tarification
+          weight: 4
+        - URL: faq
+          name: Questions fréquentes
+          weight: 5
+        - URL: contact
+          name: Contact
+          weight: 6
+      main:
+        - hasChildren: yes
+          name: Plus
+          weight: 5
+    weight: 2
+  it:
+    contentDir: content/italian
+    copyright: Copyright &copy; 2021 [Themefisher](https://themefisher.com). Tutti
+      i diritti riservati.
+    languageCode: it-IT
+    languageName: Italiano
+    menu:
+      footer:
+        - URL: about
+          name: Chi siamo
+          weight: 1
+        - URL: project
+          name: Progetto
+          weight: 2
+        - URL: service
+          name: Servizio
+          weight: 3
+        - URL: pricing
+          name: Tariffazione
+          weight: 4
+        - URL: faq
+          name: Domande frequenti
+          weight: 5
+        - URL: contact
+          name: Contatta
+          weight: 6
+      main:
+        - hasChildren: yes
+          name: Più
+          weight: 5
+    weight: 2
