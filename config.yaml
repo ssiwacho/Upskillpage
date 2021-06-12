@@ -1,59 +1,196 @@
-theme: hugo-assembly
-baseURL: https://example.co
-languageCode: en-US
-title: Assembly
+baseURL: https://example.org/
+languageCode: en-us
+title: Navigator | Responsive Multipurpose Bootstrap Hugo Template
+theme: navigator-hugo
+summaryLength: 10
+enableRobotsTXT: yes
+googleAnalytics: ''
+enableGitInfo: no
+pygmentsCodeFences: yes
+defaultContentLanguageInSubdir: yes
+DefaultContentLanguage: en
 params:
-  actions:
+  cookies:
     enable: yes
-    register: CTA Now!
-  author: A Human Name
-  banner:
-    byline: A free, CSS template ported over to a Hugo Theme.
-    title: This is Assembly Template
-  contact:
-    enable: yes
-  description: The description
-  footer:
-    copy: 2018 &copy; Assembly Inc. | All rights reserved
-    enable: yes
-    facebook: ''
-    instagram: ''
-    twitter: ''
+    expire_days: 2
+  logo: images/logo.png
+Params:
+  listeLangues:
+    - code: fr
+    - author: Themefisher
+      code: en
+      description: This is meta description
+Languages:
+  en:
+    dateFormat: January 2, 2006
+    footerAboutTitle: About
+    footerDescription: Integer posuere erat a ante venenati dapibus posuere velit
+      aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere.
+    footerQuicklinkTitle: Quicklinks
+    footerServiceTitle: Service
+    footerSubscribeTitle: Subscribe
+    home: EN Home
+    languageCode: en-us
+    logo: images/logo.png
+    menufixed: no
+    params:
+      aboutSm:
+        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
+          deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque
+          enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam
+          maiores iste soluta, nihil dolorem?
+        enable: yes
+        title: We have explored the digital landscape with passion for a long time
+      blog:
+        enable: yes
+        subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
+          reiciendis quasi itaque, obcaecati atque sit!
+        title: Blog.
+        topTitle: OUR UNTOLD STORY
+      contact:
+        address: 14/05, Stockhome <br> Victori Palace , United States
+        dribbble: https://dribbble.com/
+        enable: yes
+        facebook: https://www.facebook.com/
+        fax: +61 3827 3590
+        instagram: https://www.instagram.com/
+        linkedin: https://www.linkedin.com/
+        mapLatitude: '51.507351'
+        mapLongitude: '-0.127758'
+        mapMarker: images/marker.png
+        phone: (03) 9283 2617
+        subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
+          reiciendis quasi itaque, obcaecati atque sit!
+        title: Contact Us.
+        topTitle: DROP US A NOTE
+        twitter: https://twitter.com/
+      cta:
+        bg: images/call-to-action/call-to-action-bg-2.jpg
+        btnText: Contact Us
+        enable: yes
+        subtitle: Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum
+          auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed
+          odio sitain elit.
+        title: Let's Create Something Together
+      hero:
+        btnText: Know More
+        btnURL: https://themefisher.com/
+        button: yes
+        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+          quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam
+          unde repellat id expedita quae quisquam libero officia consequatur.
+        enable: yes
+        heading: We love to make brands grow
+        videoThumb: images/slider/video-player-thumb.jpg
+        videoURL: https://www.youtube.com/embed/g3-VxLQO7do
+    title: Example site multi-language
+    weight: 2
+  fr:
+    dateFormat: 2 January 2006
+    footerAboutTitle: FRANCAIS About
+    footerDescription: FRANCAIS Integer posuere erat a ante venenati dapibus posuere
+      velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere.
+    footerQuicklinkTitle: FRANCAIS Quick links
+    footerServiceTitle: FRANCAIS Services
+    footerSubscribeTitle: FRANCAIS Subscribe
+    home: FR Home
+    languageCode: fr-fr
+    logo: images/logo.png
+    menufixed: no
+    params:
+      aboutSm:
+        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
+          deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque
+          enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam
+          maiores iste soluta, nihil dolorem?
+        enable: yes
+        title: FRANCAIS We have explored the digital landscape with passion for a
+          long time
+      blog:
+        enable: yes
+        subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
+          reiciendis quasi itaque, obcaecati atque sit!
+        title: FRANCAIS Blog.
+        topTitle: OUR UNTOLD STORY
+      contact:
+        address: 14/05, Stockhome <br> Victori Palace , United States
+        dribbble: https://dribbble.com/
+        enable: yes
+        facebook: https://www.facebook.com/
+        fax: +61 3827 3590
+        instagram: https://www.instagram.com/
+        linkedin: https://www.linkedin.com/
+        mapLatitude: '51.507351'
+        mapLongitude: '-0.127758'
+        mapMarker: images/marker.png
+        phone: (03) 9283 2617
+        subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
+          reiciendis quasi itaque, obcaecati atque sit!
+        title: FRANCAIS Contact Us.
+        topTitle: DROP US A NOTE
+        twitter: https://twitter.com/
+      cta:
+        bg: images/call-to-action/call-to-action-bg-2.jpg
+        btnText: Nous contacter
+        enable: yes
+        subtitle: Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum
+          auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed
+          odio sitain elit.
+        title: FRANCAIS Let's Create Something Together
+      hero:
+        btnText: Know More
+        btnURL: https://themefisher.com/
+        button: yes
+        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+          quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam
+          unde repellat id expedita quae quisquam libero officia consequatur.
+        enable: yes
+        heading: FRANCAIS We love to make brands grow
+        videoThumb: images/slider/video-player-thumb.jpg
+        videoURL: https://www.youtube.com/embed/g3-VxLQO7do
+    title: FRANCAIS Example site multi-language
+    weight: 1
+menu:
   nav:
-    contact: Contact Us
-    home: Home
-    services: Services
-    welcome: Welcome
-  services:
-    enable: yes
-    item:
-      - button_item_info: Safer
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem
-          ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit
-          amet, consectetur adipisicing elit.
-        weight: A
-      - button_item_info: Faster
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem
-          ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit
-          amet, consectetur adipisicing elit.
-        weight: B
-      - button_item_info: Smarter
-        description: Possimus id dicta consequuntur veritatis, reiciendis at sint
-          distinctio eligend Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem
-          ipsum dolor sit amet, consectetur adipisicing elit.
-        weight: C
-    subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    title: Services
-  welcome:
-    button_text: Call Now
-    description: This is <strong>Assembly</strong>, a free, fully standards-compliant
-      CSS template designed by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.
-      The photos in this template are from <a href="http://fotogrph.com/"> Fotogrph</a>.
-      This free template is released under the <a href="http://templated.co/license">Creative
-      Commons Attribution</a> license, so you're pretty much free to do whatever you
-      want with it (even use it commercially) provided you give us credit for it.
-      Have fun :)
-    enable: yes
-    subtitle: Computing the conversion of instructions in low-level code to machine
-      code by an assembler.
-    title: Welcome Assembly
+    - name: about
+      url: about
+      weight: 2
+    - name: service
+      url: service
+      weight: 3
+    - name: portfolio
+      url: portfolio
+      weight: 4
+    - name: blog
+      url: blog
+      weight: 5
+    - name: contact
+      url: contact
+      weight: 6
+  quicklink:
+    - name: partners
+      url: about
+      weight: 1
+    - name: about
+      url: about
+      weight: 2
+    - name: faqs
+      url: about
+      weight: 3
+    - name: badges
+      url: about
+      weight: 4
+  service:
+    - name: graphicdesign
+      url: service
+      weight: 1
+    - name: webdesign
+      url: service
+      weight: 2
+    - name: webdevelopment
+      url: service
+      weight: 3
