@@ -1,7 +1,6 @@
 ---
-menu:
-  after:
-    name: blog
-    weight: 5
-title: Blog
+description: A collection of posts
+icon: flag
+title: Posts
 ---
+

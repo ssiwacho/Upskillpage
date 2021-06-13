@@ -1,0 +1,89 @@
+---
+title: Introduction
+type: docs
+---
+
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Krub&family=Trirong:wght@300&display=swap" rel="stylesheet"> 
+
+
+<style type="text/css">
+body{ /* Normal  */
+      font-size: 16px;
+      font-family: 'Krub', serif;      
+      color: #1B2631;
+      line-height: 1.7em;
+  }
+td {  /* Table  */
+  font-size: 8px;
+}
+h1.title {
+  font-size: 38px;
+    font-family: 'Trirong', serif;
+    }
+h1 { /* Header 1 */
+  font-size: 24px;
+  color: #154360;
+  font-family: 'Trirong', serif; 
+  line-height: 1.7em;
+
+}
+h2 { /* Header 2 */
+    font-size: 22px;
+    font-family: 'Krub', serif;      
+
+}
+h3 { /* Header 3 */
+  font-size: 20px;
+    font-family: 'Maitree', serif;  
+    color: #154360;
+}
+code.r{ /* Code block */
+    font-size: 12px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 14px;
+}
+</style>
+
+
+
+# หลักสูตร "การคิดออกแบบ การโค้ชชิ่ง และการออกแบบชั้นเรียนนวัตกรรม เพื่อสร้างและยกระดับทักษะการทำงานของบุคลากรสำหรับการเรียนรู้ออนไลน์และออฟไลน์"
+
+ <img src="/Users/siwachoat/Documents/facepic/happyboy.jpg" alt="Girl in a jacket" width="500" height="600"> 
+
+
+{{< columns >}}
+## Astris ipse furtiva
+
+Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut
+olivae sensit **arma sorori** deducit, inesset **crudus**, ego vetuere aliis,
+modo arsit? Utinam rapta fiducia valuere litora _adicit cursu_, ad facies
+
+<--->
+
+## Suis quot vota
+
+Ea _furtique_ risere fratres edidit terrae magis. Colla tam mihi tenebat:
+miseram excita suadent es pecudes iam. Concilio _quam_ velatus posset ait quod
+nunc! Fragosis suae dextra geruntur functus vulgata.
+{{< /columns >}}
+
+
+## Tempora nisi nunc
+
+Lorem **markdownum** emicat gestu. Cannis sol pressit ducta. **Est** Idaei,
+tremens ausim se tutaeque, illi ulnis hausit, sed, lumina cutem. Quae avis
+sequens!
+
+    var panel = ram_design;
+    if (backup + system) {
+        file.readPoint = network_native;
+        sidebar_engine_device(cell_tftp_raster,
+                dual_login_paper.adf_vci.application_reader_design(
+                graphicsNvramCdma, lpi_footer_snmp, integer_model));
+    }
+
+## Locis suis novi cum suoque decidit eadem
+
+Idmoniae ripis, at aves, ali missa adest, ut _et autem_, et ab?

@@ -1,0 +1,36 @@
+baseURL: https://example.com/
+title: Educator Online Learning Platform
+theme: hugo-book
+disablePathToLower: yes
+enableGitInfo: yes
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
+  tableOfContents:
+    startLevel: 1
+languages:
+  en:
+    contentDir: content
+    languageName: English
+    weight: 1
+menu:
+  after:
+    - name: Facebook
+      url: https://www.facebook.com/Upskill-Reskill-Edu-Chula-108438281469923
+      weight: 10
+    - name: KruRooLMS
+      url: https://kruroo.com/
+      weight: 20
+params:
+  BookComments: yes
+  BookDateFormat: January 2, 2006
+  BookEditPath: ""
+  BookPortableLinks: yes
+  BookRepo: https://github.com/alex-shpak/hugo-book
+  BookSearch: yes
+  BookSection: docs
+  BookServiceWorker: yes
+  BookTheme: light
+  BookToC: yes
+  BookTranslatedOnly: no
