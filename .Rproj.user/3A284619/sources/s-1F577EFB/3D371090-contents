@@ -1,0 +1,42 @@
+baseURL: https://letsencrypt.org/
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: no
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
+enableRobotsTXT: yes
+timezone: America/Los_Angeles
+assetDir: src
+params:
+  crowdfunding_url: https://www.generosity.com/community-fundraising/make-a-more-secure-web-with-let-s-encrypt
+  enableMissingTranslationPlaceholders: yes
+  github_username: letsencrypt
+  show_fundraiser: yes
+  time_format_RFC822: Mon, 02 Jan 2006 15:04:05 -0700
+  time_format_RFC3339: 2006-01-02T15:04:05Z07:00
+  time_format_default: Jan 2, 2006
+  top_graphic: 5
+  twitter_username: letsencrypt
+outputs:
+  home:
+    - HTML
+    - RSS
+  page: HTML
+  section: HTML
+outputFormats:
+  RSS:
+    baseName: feed
+uglyURLs:
+  post: yes
+permalinks:
+  post: /:year/:month/:day/:slug/
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    parser:
+      autoHeadingIDType: blackfriday
+    renderer:
+      unsafe: yes
+  highlight:
+    guessSyntax: no
+    noClasses: no

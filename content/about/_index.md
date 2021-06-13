@@ -1,21 +1,14 @@
 ---
-date: "2018-07-12T18:19:33+06:00"
-description: We are specialized in developing forward-thinking brand identities, websites,
-  illustration and animation for all types of customers. And we do this by bringing
-  our customers through each phase of the design process with us.
-expertise_sectors:
-- Customer Experience Design
-- Digital Products
-- Development
-- Campaign & Content
-- Employer Branding
-- Animation & Motion Graphics
-- Packaging & Product Design
-- Retail & Spacial
-- Print & Editorial Design
-- Concept/Text
-- Information Design
-expertise_title: Expertise
-heading: WE ARE ROXO DESIGN. AN AWARD-WINNING CREATIVE STUDIO IN FLORIDA.
-title: About Us
+date: "2019-10-29T13:49:23+06:00"
+description: this is meta description
+draft: false
+image: images/author.jpg
+title: About Me
+type: about
 ---
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+
+consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+
+nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd

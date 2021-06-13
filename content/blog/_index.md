@@ -1,8 +1,7 @@
 ---
-date: "2019-12-23T20:17:01+06:00"
-description: By fusing strategy & design we help our partners build their brands,
-  drive business, & stand out from the noise in saturated markets! Follow our blog
-  for the latest case studies and projects.
-title: Roxo Blog
+date: "2019-10-29T13:49:23+06:00"
+description: this is meta description
+draft: false
+title: blog
+type: blog
 ---
-

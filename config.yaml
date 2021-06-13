@@ -1,98 +1,88 @@
-baseURL: http://example.org/
+baseURL: https://examplesite.com
 languageCode: en-us
-title: Educator Online Learning Platform
-theme: roxo-hugo
-summarylength: 25
-menu:
-  nav:
-    - name: Home
-      url: ''
-      weight: 1
-    - name: About
-      url: about
-      weight: 2
-    - name: Portfolio
-      url: portfolio
-      weight: 3
-    - name: Blog
-      url: blog
-      weight: 4
-    - name: Get in touch
-      url: contact
-      weight: 5
+title: Liva | Personal blog template
+theme: liva-hugo
+summaryLength: '10'
+paginate: 6
+disqusShortname: ''
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 params:
-  author: StaticMania
-  banner:
-    background_image: images/backgrounds/hero-background.jpg
+  author: Themefisher
+  cookies:
     enable: yes
-    heading: Educator Online Learning Platform
-    primary_button: สมัครเข้าร่วมโครงการ
-    primary_button_url: portfolio
-    secondary_button: ดูรายละเอียดโครงการ
-    secondary_button_url: contact
-    tagline: Design Thinking, Coaching, and Innovative Classroom
-  call_to_action:
-    background_image: images/backgrounds/cta-background.jpg
-    enable: yes
-    primary_button: Submit Query
-    primary_button_url: contact
-    secondary_button: Not Convinced
-    secondary_button_url: portfolio
-    title: LET’S WORK TOGETHER
-  contactForm:
-    placeholder_about_the_project: About the Project
-    placeholder_email: Email
-    placeholder_first_name: First Name
-    placeholder_last_name: Last Name
-    placeholder_project_type: Project Type
-    projectType:
-      - title: Graphics Design
-        value: gd
-      - title: Web Design
-        value: wd
-    send_message: Send Message
-  dateFormat: 26 FEB 1994
-  description: Roxo Hugo themes | Design Agency Template by StaticMania
-  footer:
-    contactInfo:
-      address: 713 Elmwood St.<br>Prior Lake, MN 55372
-      email: info@roxo.co
-      phone: 409-896-1444
-      title: Contact Info
-    service:
-      description: develop design solutions<br>produce valuable cultural content<br>create
-        fresh brand experience
-      title: 'We help brands:'
-    sitemap:
-      link:
-        - name: About Company
-          url: about
-        - name: Projects
-          url: portfolio
-        - name: Blog
-          url: blog
-        - name: Contact
-          url: contact
-      title: Sitemap
-    social:
-      link:
-        - name: Medium
-          url: '#'
-        - name: Behance
-          url: '#'
-        - name: Dribbble
-          url: '#'
-        - name: Instagram
-          url: '#'
-      title: Social Media
-  formspreeFormUrl: https://formspree.io/myykjpje
+    expire_days: 2
+  copyright: '| copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights
+    Reserved |'
+  description: This is meta description
+  email: demo@email.com
   googleAnalitycsID: Your ID
+  home: Home
+  location: Dhaka, Bangladedsh
   logo: images/logo.png
-  navAction:
-    name: Get in touch
-    status: yes
-    url: contact
-  portfolio:
+  mobile: 0124857985320
+  newsletter:
+    content: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+      At vero
     enable: yes
-    subtitle: Crafting experiences and seeking to make the complex clear & beautiful.
-    title: OUR RECENT WORKS
+    title: Join Our Newsletter
+  plugins:
+    css:
+      - URL: plugins/bootstrap/bootstrap.min.css
+      - URL: plugins/slick/slick.css
+      - URL: plugins/themify-icons/themify-icons.css
+      - URL: plugins/venobox/venobox.css
+    js:
+      - URL: plugins/jQuery/jquery.min.js
+      - URL: plugins/bootstrap/bootstrap.min.js
+      - URL: plugins/slick/slick.min.js
+      - URL: plugins/venobox/venobox.min.js
+      - URL: plugins/search/fuse.min.js
+      - URL: plugins/search/mark.js
+      - URL: plugins/search/search.js
+  preloader:
+    enable: yes
+    preloader: ''
+  search:
+    enable: yes
+  social:
+    - icon: ti-facebook
+      link: '#'
+      title: facebook
+    - icon: ti-twitter-alt
+      link: '#'
+      title: twitter
+    - icon: ti-instagram
+      link: '#'
+      title: instagram
+    - icon: ti-github
+      link: '#'
+      title: github
+    - icon: ti-linkedin
+      link: '#'
+      title: linkedin
+menu:
+  footer:
+    - URL: about
+      name: About
+      weight: 1
+    - URL: blog
+      name: Post
+      weight: 2
+    - URL: contact
+      name: Contact
+      weight: 3
+  main:
+    - URL: about
+      name: About
+      weight: 1
+    - URL: blog
+      name: Post
+      weight: 2
+    - URL: contact
+      name: Contact
+      weight: 3
