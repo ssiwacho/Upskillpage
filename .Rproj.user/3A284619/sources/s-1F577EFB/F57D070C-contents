@@ -22,7 +22,7 @@ params:
     image: logos/fresh.svg
     link: /
   font:
-    name: "ChulaCharasNew"
+    name: "TH Sarabun New"
     sizes: [400,600]
   hero:
     # Main hero title
@@ -30,18 +30,14 @@ params:
     # Hero subtitle (optional)
     subtitle: หลักสูตร "การคิดออกแบบ การโค้ชชิ่ง และการออกแบบชั้นเรียนนวัตกรรม" เพื่อสร้างและยกระดับทักษะการทำงานของบุคลากรทางการศึกษาสำหรับการเรียนรู้ออนไลน์และออฟไลน์
     # Button text
-    buttontext: สมัครเข้าร่วมโครงการ
+    buttontext: Get started
     # Where the main hero button links to
-    buttonlink: "https://forms.gle/LESQ5Tf21yhrezEW8"
+    buttonlink: "#"
     # Hero image (from static/images/___)
     image: illustrations/worker.svg
     # Footer logos (from static/images/logos/clients/___.svg)
     clientlogos:
-    - systek
-    - tribe
-    - kromo
-    - infinite
-    - gutwork
+
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Features

@@ -1,170 +1,76 @@
-baseURL: http://something-fresh.org/
+baseURL: http://example.org/
 languageCode: en-us
-title: Educator Online Learning Platform
-theme: "hugo-fresh"
-googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
-# Disables warnings
-disableKinds:
-- taxonomy
-- taxonomyTerm
-markup:
-  goldmark:
-    renderer:
-      unsafe: true # Allows you to write raw html in your md files
-
+title: Timer | Responsive Multipurpose Bootstrap Hugo Template
+theme: timer-hugo
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: About
+      url: about
+      weight: 2
+    - name: Service
+      url: service
+      weight: 3
+    - name: Gallery
+      url: gallery
+      weight: 4
+    - name: Blog
+      url: blog
+      weight: 5
+    - name: Contact
+      url: contact
+      weight: 6
 params:
-  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
-  openGraph: true
-  # Used as meta data; describe your site to make Google Bots happy 
-  description: 
-  navbarlogo:
-  # Logo (from static/images/logos/___)
-    image: logos/fresh.svg
-    link: /
-  font:
-    name: "ChulaCharasNew"
-    sizes: [400,600]
-  hero:
-    # Main hero title
-    title: Educator Online Learning Platform
-    # Hero subtitle (optional)
-    subtitle: หลักสูตร "การคิดออกแบบ การโค้ชชิ่ง และการออกแบบชั้นเรียนนวัตกรรม" เพื่อสร้างและยกระดับทักษะการทำงานของบุคลากรทางการศึกษาสำหรับการเรียนรู้ออนไลน์และออฟไลน์
-    # Button text
-    buttontext: สมัครเข้าร่วมโครงการ
-    # Where the main hero button links to
-    buttonlink: "https://forms.gle/LESQ5Tf21yhrezEW8"
-    # Hero image (from static/images/___)
-    image: illustrations/worker.svg
-    # Footer logos (from static/images/logos/clients/___.svg)
-    clientlogos:
-    - systek
-    - tribe
-    - kromo
-    - infinite
-    - gutwork
-  # Customizable navbar. For a dropdown, add a "sublinks" list.
-  navbar:
-  - title: Features
-    url: /
-  - title: Pricing
-    url: /
-  - title: Dropdown
-    sublinks:
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-  - title: Log in
-    url: /
-  - title: Sign up
-    url: /
-    button: true
-  section1:
-    title: Great power comes
-    subtitle: with great responsibility
-    tiles:
-    - title: App builder
-      icon: mouse-globe
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Free trial
-    - title: Cloud integration
-      icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
-    - title: Add-ons & plugins
-      icon: plug-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
-  section2:
-    title: You're here because you want the best
-    subtitle: And we know it
-    features:
-    - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      # Icon (from /images/illustrations/icons/___.svg)
-      icon: laptop-globe
-    - title: Cross-device synchronisation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: doc-sync
-    - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: mobile-feed
-  section3:
-    title: One platform
-    subtitle: To rule them all
-    image: illustrations/mockups/app-mockup.png
-    buttonText: Get started
-    buttonLink: "#"
-  section4:
-    title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-    clients:
-    - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
-      img: 1
-    - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
-      img: 2
-    - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
-      img: 3
-  section5: true
-  footer:
-    # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
-    # Social Media Title
-    socialmediatitle: Follow Us
-    # Social media links (GitHub, Twitter, etc.). All are optional.
-    socialmedia:
-    - link: https://github.com/lucperkins/github-fresh
-      # Icons are from Font Awesome
-      icon: github
-    - link: https://dribbble.com/#
-      icon: dribbble
-    - link: https://facebook.com/#
-      icon: facebook
-    - link: https://twitter.com/lucperkins
-      icon: twitter
-    - link: https://bitbucket.org/#
-      icon: bitbucket
-    bulmalogo: true
-    quicklinks:
-      column1:
-        title: "Product"
-        links:
-        - text: Discover features
-          link: /
-        - text: Why choose our product?
-          link: /
-        - text: Compare features
-          link: /
-        - text: Our roadmap
-          link: /
-        - text: AGB
-          link: /agb
-      column2:
-        title: "Docs"
-        links:
-        - text: Get started
-          link: /
-        - text: User guides
-          link: /
-        - text: Admin guide
-          link: /
-        - text: Developers
-          link: /
-      column3:
-        title: "Blog"
-        links:
-        - text: Latest news
-          link: /blog/first
-        - text: Tech articles
-          link: /blog/second
+  about:
+    content: Hello, I’m a UI/UX Designer & Front End Developer from Victoria, Australia.
+      I hold a master degree of Web Design from the World University.And scrambled
+      it to make a type specimen book. It has survived not only five centuries. <br>
+      <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci
+      voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda
+      iusto reiciendis placeat. Temporibus, vero.
+    enable: yes
+    image: images/about/about.jpg
+    title: ABOUT ME
+  author: Themefisher
+  banner:
+    bgImage: images/slider.jpg
+    btn: yes
+    btnText: Download More
+    btnURL: https://themefisher.com/
+    description: WITH 10 YEARS EXPERIENCE, I'VE OCCUPIED MANY ROLES INCLUDING DIGITAL
+      DESIGN DIRECTOR, WEB DESIGNER AND DEVELOPER. THIS SITE SHOWCASES SOME OF MY
+      WORK.
+    enable: yes
+    flipText:
+      - title: DESIGNER
+      - title: DEVELOPER
+      - title: FATHER
+    heading: HI, MY NAME IS JONATHON & I AM A
+  contactFormAction: '#'
+  cta:
+    btnText: Contact with me
+    btnURL: /contact
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus
+      commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium.
+    enable: yes
+    title: SO WHAT YOU THINK ?
+  dateFormat: 6 January 2006
+  description: Airspace Hugo theme
+  googleAnalitycsID: Your ID
+  home: Home
+  logo: images/logo.png
+  portfolio:
+    enable: yes
+    subtitle: Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor
+      neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat,
+      nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.
+    title: Latest Works
+  socialIcon:
+    - icon: ion-social-facebook
+      url: '#'
+    - icon: ion-social-instagram
+      url: '#'
+    - icon: ion-social-linkedin
+      url: '#'
