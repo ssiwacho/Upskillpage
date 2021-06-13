@@ -1,0 +1,22 @@
+languageCode: en-us
+title: Educator Online Learning Platform
+baseURL: https://example.com
+theme: hugo-html5up-alpha
+disqusShortname: ''
+params:
+  author: 'Hugo Port: [Nelson/Roberto](https://nelsonroberto.com/)'
+  copyright: © Untitled. All rights reserved.
+  description: หลักสูตร
+  design: 'Design: [HTML5 UP](http://html5up.net/)'
+  images: images/pic01.jpg
+  mainSections: blog
+  share:
+    - icon: fa-facebook-f
+      link: https://www.facebook.com/
+      title: facebook
+    - icon: fa-twitter
+      link: https://twitter.com/
+      title: twitter
+    - icon: fa-linkedin
+      link: https://www.linkedin.com
+      title: linkedin
